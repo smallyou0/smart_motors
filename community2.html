@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEACE CAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-f8">
+    <header class="header">
+      <div>
+        <h1 class="h1"><a class="logo" href="home.html"></a></h1>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#"></a>
+        </div>
+      </div>
+    </header>
+  
+    <main class="main pb150">
+      <div class="align triple bg-f8 both vm h-50 px16 mt20">
+        <a class="btn-back" href="javascript:window.history.back();"></a>
+        <h2>차량 관리 꿀팁</h2>
+        <div style="width: 24px"></div>
+      </div>       
+      <section class="content">
+        <div class="img-wrap2">
+          <img src="images/@img_motors_filter2.svg" alt="">
+        </div>
+        <div class="img-wrap2" onclick="alert('준비중입니다')">
+          <img src="images/@img_motors4.png" alt="">
+        </div>
+      </section>
+    </main>
+
+    <!-- 네비 하단영역 -->
+    <div class="nav-foot">
+      <div class="nav-foot__layer">
+        <div class="nav-foot__mode">
+          <a class="btn-close-layer btn-weighbridge" href="weight-shot.html">계근대</a>
+          <a class="btn-close-layer btn-lame" href="weight-shot.html">앉은뱅이</a>
+        </div>
+      </div>
+      <!-- <div class="writing-explanation">작성중인 계량증명서가 있습니다</div> -->
+      <button 
+        class="btn-select" 
+        type="button" 
+        onclick="alert('준비중입니다')"></button>
+      <nav class="nav-foot__cont">
+        <ul>
+          <li class="ico-nav1"><a href="home.html">메인</a></li>
+          <li class="ico-nav2"><a href="around.html">주변</a></li>
+          <li class="ico-nav3 active"><a href="community1.html">커뮤니티</a></li>
+          <li class="ico-nav4"><a href="#none">더보기</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>

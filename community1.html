@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEACE CAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header">
+      <div>
+        <h1 class="h1"><a class="logo" href="home.html"></a></h1>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#"></a>
+        </div>
+      </div>
+    </header>
+    <main class="main pb150">
+      <section class="content">
+        <div class="vehicle-management align both vm pt26 px16">
+          <a class="select ico1" href="">아반떼(CN7)<br> 하이브리드 인스퍼레이션</a>
+        </div>
+        <div class="title-main align vm pt8 px16">
+          <h3 class="h3">123가 4567</h3>
+        </div>
+        <div class="title-main align vm pt32 px16">
+          <h2 class="h2">차량 관리 정보</h2>
+        </div>
+        <ul class="list-type8 grid3 px16 pt10" onclick="alert('준비중입니다')">
+          <li class="radius-10 btn-area">
+            <div class="text-type4 pb6">정비 후기</div>
+          </li>
+          <li class="radius-10 btn-area">
+            <div class="text-type4 pb6">연비 비교</div>
+          </li>
+          <li class="radius-10 btn-area active">
+            <div class="text-type4 pb6">눈/치아</div>
+          </li>
+        </ul>      
+        <div class="px16 pt24">
+          <button class="btn-main-on w100" type="button" onclick="location.href='community2.html'">차량 관리 꿀팁 모아보기</button>
+        </div>  
+      </section>
+    </main>
+
+    <!-- 네비 하단영역 -->
+    <div class="nav-foot">
+      <div class="nav-foot__layer">
+        <div class="nav-foot__mode">
+          <a class="btn-close-layer btn-weighbridge" href="weight-shot.html">계근대</a>
+          <a class="btn-close-layer btn-lame" href="weight-shot.html">앉은뱅이</a>
+        </div>
+      </div>
+      <!-- <div class="writing-explanation">작성중인 계량증명서가 있습니다</div> -->
+      <button 
+        class="btn-select" 
+        type="button" 
+        onclick="alert('준비중입니다')"></button>
+      <nav class="nav-foot__cont">
+        <ul>
+          <li class="ico-nav1"><a href="home.html">메인</a></li>
+          <li class="ico-nav2"><a href="around.html">주변</a></li>
+          <li class="ico-nav3 active"><a href="community1.html">커뮤니티</a></li>
+          <li class="ico-nav4"><a href="#none">더보기</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>
